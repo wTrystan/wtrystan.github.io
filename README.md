@@ -1,3 +1,3 @@
 # List of my differents projects
 
-- [Anime Recommandation](https://wtrystan.github.io/)
+- [Anime Recommandation](https://wtrystan.github.io/anime_recommandation)
