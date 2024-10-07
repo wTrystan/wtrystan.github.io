@@ -2,6 +2,8 @@
 
 I am currently looking for a job in Dublin as a Data Analyst / Data Scientist 📬
 
+## Overview of my Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=py,r,pytorch,gradle,sklearn,tensorflow)](https://skillicons.dev)
 
 # List of my differents projects
 
