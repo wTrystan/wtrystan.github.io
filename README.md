@@ -9,4 +9,4 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
 
 - [Anime Recommandation](https://www.kaggle.com/code/trystanmarissal/recommandation-for-animes)
 - [Automation of Contents for Social Media with Remotion](https://wtrystan.github.io/automation_remotion)
-- [Data visualisation](https://wtrystan.github.io/RMARKDWON.html)
+- [Data visualisation](https://wtrystan.github.io/RMARKDWON)
