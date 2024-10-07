@@ -1,3 +1,3 @@
 # List of my differents projects
 
-- [Anime Recommandation](https://wtrystan.github.io/anime_recommandation)
+- [Anime Recommandation](https://www.kaggle.com/code/trystanmarissal/recommandation-for-animes)
