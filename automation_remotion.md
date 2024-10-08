@@ -104,8 +104,12 @@ I use a CRON to run this program every day at 7PM :
  cd spot
  start cmd /C npx remotion render src/index.tsx HelloWorld out/formatUSA.mp4 --props=src/propsUSA.json
  start cmd /C npx remotion render src/index.tsx HelloWorld out/formatFR.mp4 --props=src/propsFR.json
-
  timeout /t 90
  call "D:/MiniConda/python.exe" "C:\Users\tryst\spot\exportGDrive.py"</code>
+
+This code will run the Python program in the first time, creating the output for the French and American video.
+Then, it will launch the render of the two videos using the JSON files (propsUSA and propsFR)
+The output file will be formatUSA.mp4 and formatFR.mp4
+In the end, the program exportGDrive.py will take these two videos and upload them on my personal Google Drive.
 
 ## (BONUS) : Automation on AWS
