@@ -1,4 +1,4 @@
-# Here is my automation of contents for Social Media using Remotion
+# Here is my automation of contents for Social Media using React (Remotion)
 
 - [Link to the TikTok Account 👋](https://www.tiktok.com/@topfivespotify)
 
@@ -56,6 +56,12 @@ Here is an overview of the JSON file :
 "title1": "Hozier - Too Sweet","title2": "Future - Like That","title3": "Artemas - i like the way you ...","title4": "¥$ - CARNIVAL","title5": "Benson Boone - Beautiful Thin..."}</code>
 
 ## Step 3 : Tuning of the Remotion program
+
+We are now going to create the template to create the video with React, using Remotion.
+
+<img src="interface_remotion.PNG" >
+
+
 
 ## Step 4 : Post on Social Media 
 
