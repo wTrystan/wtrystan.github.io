@@ -59,9 +59,36 @@ Here is an overview of the JSON file :
 
 We are now going to create the template to create the video with React, using Remotion.
 
-<img src="interface_remotion.PNG" >
+<img src="interface_Remotion.PNG">
 
+This is the user interface, but all of the work is located in the .TSX file
+Here is a snippet of code for the cover :
 
+<code>export const MainCover: React.FC<{
+	scale: number;
+    source: string;
+    topValue: number;
+}> = ({scale, source, topValue}) => {
+	const config = useVideoConfig();
+	const frame = useCurrentFrame();
+	const opacity = interpolate(frame, [0, 25], [0, 1]);
+	return (
+ <Img src={source} style={{
+				position: 'absolute',
+				marginTop: topValue,
+				marginLeft: 80,
+				width: '18%',
+				opacity,
+				borderRadius: 50,
+			}}/>
+	);
+};</code>
+
+Once the template is done, we will include the values available in the JSON file to personnalise the video.
+
+<Video src=formatUSA.mp4>
+
+All of the differents .TSX files are available [here](https://github.com/wTrystan/remotion_Tiktok_Spotify) 
 
 ## Step 4 : Post on Social Media 
 
