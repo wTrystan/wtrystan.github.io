@@ -86,7 +86,10 @@ Here is a snippet of code for the cover :
 
 Once the template is done, we will include the values available in the JSON file to personnalise the video.
 
-<video src="formatUSA.mp4">
+<video controls width="300">
+  <source src="formatUSA.mp4" type="video/mp4">
+  This browser does not support HTML video.
+</video>
 
 All of the differents .TSX files are available [here](https://github.com/wTrystan/remotion_Tiktok_Spotify) 
 
