@@ -2,7 +2,6 @@
 
 - [Link to the TikTok Account 👋](https://www.tiktok.com/@topfivespotify)
 
-
 ## Summary
 
 The goal of this project is to :
@@ -93,8 +92,20 @@ Once the template is done, we will include the values available in the JSON file
 
 All of the differents .TSX files are available [here](https://github.com/wTrystan/remotion_Tiktok_Spotify) 
 
-## Step 4 : Post on Social Media 
+We are now fully ready to post the video of the day on the Tiktok account !
 
 ## Step 5 : Automation of the steps on local machine
+
+I use a CRON to run this program every day at 7PM :
+
+<code>@ECHO ON
+ call D:/MiniConda/Scripts/activate.bat D:/MiniConda
+ "D:/MiniConda/python.exe" "C:\Users\tryst\Desktop\main.py"
+ cd spot
+ start cmd /C npx remotion render src/index.tsx HelloWorld out/formatUSA.mp4 --props=src/propsUSA.json
+ start cmd /C npx remotion render src/index.tsx HelloWorld out/formatFR.mp4 --props=src/propsFR.json
+
+ timeout /t 90
+ call "D:/MiniConda/python.exe" "C:\Users\tryst\spot\exportGDrive.py"</code>
 
 ## (BONUS) : Automation on AWS
