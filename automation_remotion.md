@@ -5,7 +5,7 @@
 ## Summary
 
 The goal of this project is to :
-- Use my knowledge in coding in the field of music
+- Use my knowledge in coding applied to the field of music
 - Create content on a daily basis for social media
 - Learn how to use Remotion and how to automate actions
 
