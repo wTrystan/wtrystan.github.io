@@ -8,7 +8,7 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
 # List of my differents projects
 
 - Anime Recommandation
-  - [Live Demo - StreamLit](https://anime-recommandation-portfolio.streamlit.app/)
+  - [WIP - Live Demo - StreamLit](https://anime-recommandation-portfolio.streamlit.app/)
   - [Data exploration / processing](https://www.kaggle.com/code/trystanmarissal/recommandation-for-animes)
 - Automation of Contents for Social Media with Remotion
   - [Article](https://wtrystan.github.io/automation_remotion)
