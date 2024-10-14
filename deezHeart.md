@@ -29,6 +29,13 @@ Here is how it looks like :
 - Now, you have the Media Player where the Title/Artist/BPM/Cover is display, a reactive slider and remaining duration of the song
 - You can have access to the current queue, wth a column for the title, the artist and the BPM
 
+## Connexion of the user on Spotify
+
+<img src='/img_android/mainActivity.PNG'>
+
+Thanks to the Spotify developers, the connexion of the user is pretty easy.
+An interface appears, and once he is connected, we get the authentification token and the authorization.
+
 ## Gathering of the musics
 
 I had to create the dictionnary ListeplaylistID which contains the URL to all the playlist liked by the user.
