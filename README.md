@@ -16,5 +16,5 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
   - [Link to the Tiktok Account](https://www.tiktok.com/@topfivespotify)
 
 - Android Application DeezHeart
-  - [Article](https://wtrystan.github.io/deezheart)
+  - [Article](https://wtrystan.github.io/deezHeart)
   - [GitHub repository](https://github.com/wTrystan/deezHeart)
