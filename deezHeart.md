@@ -20,8 +20,7 @@ The goal of this application is to :
 - Make it accessible for Spotify and Deezer
 
 Here is how it looks like :
-
-<img src=https://github.com/wTrystan/wtrystan.github.io/blob/a62cd88ad3f934e2df174920966f25d820f841c5/img_android/summary.png>
+<img src='/img_android/summary.png'>
 
 - First of all, you have a waiting screen miming a heartbeat.
 - You have access to the Main Page, where you have the title, the logo and the choose of the media : Spotify and Deezer
@@ -53,6 +52,6 @@ Thanks to these informations, I am able to specify which vibe do I look for :
 
 ### Final program
 
-<img src=https://github.com/wTrystan/wtrystan.github.io/blob/89c9803eee35cf3c008cf51586fee72888f2b5eb/img_android/spotify_Connect.PNG>
+<img src='/img_android/spotify_Connect.PNG'>
 
 
