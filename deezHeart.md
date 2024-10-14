@@ -14,7 +14,7 @@ Since I love doing sport, I like to have heavy musics during my set. But I also 
 👋 In 2019, the functionnality Flow from Deezer did not existed yet !! 👋
 
 The goal of this application is to :
-- Add 10 musics from my 'Loved Tracks' according to chosen parameters
+- Add to my queue 10 musics from my 'Loved Tracks' according to chosen parameters
 	- Sport / Zen / Party / Chose of the BPM
 - Develop a music player in the application
  - Make it accessible for Spotify and Deezer
