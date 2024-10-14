@@ -29,10 +29,7 @@ Here is how it looks like :
 - Now, you have the Media Player where the Title/Artist/BPM/Cover is display, a reactive slider and remaining duration of the song
 - You can have access to the current queue, wth a column for the title, the artist and the BPM
 
-
-## Usage of the API to gather the elements needed
-
-### Gathering of the musics
+## Gathering of the musics
 
 I had to create the dictionnary ListeplaylistID which contains the URL to all the playlist liked by the user.
 We will also add the URL of the TOP 50 World.
@@ -41,8 +38,11 @@ Now, we are going through all the musics into the differents playlsts, and store
 
 <code>https://api.spotify.com/v1/playlists/" + ListeplaylistID.get(j) + "/tracks?market=FR&fields=items(track(id,name))&limit=100&offset=1 </code>
 
-### Parameters for the choice of the music
+## Parameters for the choice of the music
 Spotify gives metadata with the music, like a float value between 0 and 1 for the energy, the danceabilty or the valence.
+
+<img src='/img_android/spotify_Connect.PNG'>
+
 Thanks to these informations, I am able to specify which vibe do I look for :
 
 - Sport : If energy >= 0.8 then add to the queue
@@ -50,8 +50,13 @@ Thanks to these informations, I am able to specify which vibe do I look for :
 - Party : If dance > 0.7, energy >= 0.6 and valence >= 0.5 then add to the queue
 - BPM : If the BPM is between BPMmin and BPMmax
 
-### Final program
+## Loading of the queue
 
-<img src='/img_android/spotify_Connect.PNG'>
+<img src='/img_android/waiting_screen.PNG'>
 
+When you have chosen your style of music, the program will go through listeMusic and find the 10 first items that correspond.
+They will be listed on the waiting screen above, and the number will be updated also. 
 
+## Creation of the music player
+
+<img src='/img_android/spotify_player.PNG'>
