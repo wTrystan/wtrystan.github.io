@@ -57,6 +57,10 @@ Thanks to these informations, I am able to specify which vibe do I look for :
 When you have chosen your style of music, the program will go through listeMusic and find the 10 first items that correspond.
 They will be listed on the waiting screen above, and the number will be updated also. 
 
+The program is done, and 10 news songs are now available in your queue !
+
+<img src='/img_android/AffichageListe.PNG'>
+
 ## Creation of the music player
 
 <img src='/img_android/spotify_player.PNG'>
