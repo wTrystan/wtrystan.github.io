@@ -60,3 +60,9 @@ They will be listed on the waiting screen above, and the number will be updated 
 ## Creation of the music player
 
 <img src='/img_android/spotify_player.PNG'>
+The player displayed above is reactive :
+- The cover of the music is the one the user is listening
+- The name / artist / BPM is the one the user is listening
+- The progressBar, the duration and the remaining length is the one the user is listening
+- When you change the progressBar, the song will be affected
+- The button "Previous song", "Next song" and "Pause" will affect the song
