@@ -17,4 +17,4 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
 
 - Android Application DeezHeart
   - [Article](https://wtrystan.github.io/deezheart)
-  - [GitHub repository](
+  - [GitHub repository](https://github.com/wTrystan/deezHeart)
