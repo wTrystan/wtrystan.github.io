@@ -31,18 +31,5 @@ Here is how it looks like :
 - You can have access to the current queue, wth a column for the title, the artist and the BPM
 
 
-## Step 1 : Scraping and computing of the informations
+## Usage of the API to gather the elements needed
 
-In order to make my program work, I needed to gather theses variables : 
- - The date of the day,
- - The title of the top 5 song of the day and the URI of their cover,
- - The URI of the cover from the Top 1 Artist
-
-We will use the API of Spotify to collect these informations.
-You can find the program [main.py](https://github.com/wTrystan/remotion_Tiktok_Spotify) here.
-
-We need to compute some variables before sending it to Remotion.
-
-- uriHexa : We will create a palette (Library colorThief, function getPalette) using the most dominant color of the cover artist (function getColor on the URI of the artist cover)
-- colorTitle : We will determine if the color of the title is black (#000000) or white (#ffffff) depending on the color of the background determined in the variable above
-- titleXX : Truncate the name of the title XX if longer than 29 characters
