@@ -11,7 +11,7 @@ I wanted to develop an Android application, but I didn't knew what to do.
 After a while, I decided to solve one of my mains issues.
 Since I love doing sport, I like to listen to heavy musics during my set. But I also like to have calm music while I am tidying my apartment.
 
-👋 In 2019, the functionnality Flow from Deezer did not existed yet !! 👋
+👋 <b> In 2019, the functionnality Flow from Deezer did not existed yet !! </b>👋
 
 The goal of this application is to :
 - Add to my queue 10 musics from my 'Loved Tracks' according to chosen parameters
@@ -20,6 +20,7 @@ The goal of this application is to :
 - Make it accessible for Spotify and Deezer
 
 Here is how it looks like :
+
 <img src='/img_android/summary.png'>
 
 - First of all, you have a waiting screen miming a heartbeat.
