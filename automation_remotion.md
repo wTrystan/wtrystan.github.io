@@ -31,7 +31,7 @@ We need to compute some variables before sending it to Remotion.
 
 Once we have all the functions to gather all the informations (the function LancerJSON(idPlaylist, texteSpotify, formatDate, fichier)), they will store it into a JSON file.
 
-ex : lancerJSON('37i9dQZEVXbLRQDuF5jeBp', "Today's Spotify Top 5", "%m-%d-%Y", 'propsUSA.json')
+<code>lancerJSON('37i9dQZEVXbLRQDuF5jeBp', "Today's Spotify Top 5", "%m-%d-%Y", 'propsUSA.json')</code>
 
 - The first variable tells the program to scrap data from the [Top 50 - USA](https://open.spotify.com/playlist/37i9dQZEVXbLRQDuF5jeBp) with the URI given
 - The second variable is the title given for this video 
@@ -40,7 +40,7 @@ ex : lancerJSON('37i9dQZEVXbLRQDuF5jeBp', "Today's Spotify Top 5", "%m-%d-%Y", '
 
 Thanks to these function, I can easily modify the informations to have the same in French !
 
-lancerJSON('37i9dQZEVXbIPWwFssbupI', "Top 5 Spotify du ", "%d/%m/%Y", 'propsFR.json')
+<code>lancerJSON('37i9dQZEVXbIPWwFssbupI', "Top 5 Spotify du ", "%d/%m/%Y", 'propsFR.json')</code>
 
 Here is an overview of the JSON file :
 
