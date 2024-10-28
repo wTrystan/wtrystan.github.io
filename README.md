@@ -5,16 +5,17 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
 ## Overview of my Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=py,r,pytorch,gradle,sklearn,tensorflow)](https://skillicons.dev)
 
+<link rel="stylesheet" href="assets/css/styles.css">
+
 <body>
-    <div class="container">
-        <div class="column">
-            <div class="box">Box 1</div>
-        </div>
-        <div class="column">
-            <div class="box">Box 2</div>
-        </div>
-    </div>
+<div class="container">
+      <div class="box">
+          <b>Java & Android Studio</b>
+      </div>
+      <div class="box">Box 2</div>
+  </div>
 </body>
+
 
 
 # List of my differents projects
