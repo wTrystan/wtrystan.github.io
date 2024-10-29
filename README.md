@@ -16,6 +16,7 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
   </div>
   <div class='content'>
     <a href='https://wtrystan.github.io/deezHeart'>Article</a>
+    <br>
     <a href='https://github.com/wTrystan/deezHeart'>GitHub repository</a>
   </div>
 </div>
