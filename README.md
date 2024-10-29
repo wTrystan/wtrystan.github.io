@@ -8,7 +8,6 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
 # List of my differents projects
 
 <link rel="stylesheet" href="assets/css/styles.css">
-<link rel="stylesheet" href="assets/script.js"/>
 
 <body>
 <div class="box">
@@ -20,6 +19,7 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
     <a href=https://github.com/wTrystan/deezHeart>GitHub repository</a>
   </div>
 </div>
+</body>
 
 - <b>Java & Android Studio</b> - Android Application DeezHeart 💙
   - [Article](https://wtrystan.github.io/deezHeart)
