@@ -109,6 +109,20 @@ body{
   background-image: url('/img_android/card_1_img.PNG');
 }
 
+#card_2{
+  background-image: url('/img_android/spotify_logo.png');
+}
+
+#card_3{
+  background-image: url('/img_android/hxh.jpg');
+  background-size: contain;
+}
+
+#card_4{
+  background-image: url('/img_android/earth.jpg');
+  background-size: contain;
+}
+
 .overlay::after{
   border-radius: 0 25px 0 0;
   background-color: #FFF;
