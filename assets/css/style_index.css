@@ -9,11 +9,29 @@
 }
 body{
   min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+}
+
+.all_slider{
+  min-height: 100vh;
+  max-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #EFEFEF;
 }
+
+.hero-banner {
+  min-height: 100vh;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/img_android/summary.png') no-repeat center center/cover;
+}
+
 .slide-container{
   max-width: 1120px;
   max-height: 400px;
@@ -229,13 +247,6 @@ body{
 	box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
 		0 0 60px #1eff45;
 } 
-
-
-
-
-
-
-
 
 .swiper-navBtn{
   color: #6E93f7;
