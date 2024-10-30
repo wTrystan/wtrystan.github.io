@@ -7,21 +7,6 @@ I am currently looking for a job in Dublin as a Data Analyst / Data Scientist
 
 # List of my differents projects
 
-<link rel="stylesheet" href="assets/css/styles.css">
-
-<body>
-<div class="box">
-  <div class='title'>
-    <b>Java & Android Studio</b> <br> Android Application DeezHeart 💙
-  </div>
-  <div class='content'>
-    <a href='https://wtrystan.github.io/deezHeart'>Article</a>
-    <br>
-    <a href='https://github.com/wTrystan/deezHeart'>GitHub repository</a>
-  </div>
-</div>
-</body>
-
 - <b>Java & Android Studio</b> - Android Application DeezHeart 💙
   - [Article](https://wtrystan.github.io/deezHeart)
   - [GitHub repository](https://github.com/wTrystan/deezHeart)
