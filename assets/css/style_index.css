@@ -6,7 +6,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
+
+
 body{
   min-height: 100vh;
   align-items: center;
@@ -16,7 +19,7 @@ body{
 
 .all_slider{
   min-height: 100vh;
-  max-height: 300vh;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +39,12 @@ body{
   text-align: center;
   color:#EFEFEF;
   margin:15px 15px;
+}
+
+.title-ptf {
+  font-size: 30px;
+  text-align: center;
+  color:#EFEFEF;
 }
 
 .hero-banner {
@@ -104,6 +113,7 @@ body{
   justify-content: center; /* Align horizontal */
   align-items: center; /* Align vertical */
 }
+
 
 .name{
   font-size: 18px;
