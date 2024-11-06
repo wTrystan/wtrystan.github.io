@@ -167,6 +167,12 @@ a:link {
   background-repeat: no-repeat;
 }
 
+#card_5{
+  background-image: url('/img_android/classification.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .overlay::after{
   border-radius: 0 25px 0 0;
   background-color: #FFF;
