@@ -399,6 +399,14 @@ a:link {
     margin:10px;
   }
 
+  .section-two-title {
+    position: flex;
+    font-size: 20px;
+    padding-top:150px;
+    padding-bottom:100px;
+  }
+  
+
   @keyframes typing{ 
     0% { 
         width: 0% 
