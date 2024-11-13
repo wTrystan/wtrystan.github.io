@@ -1,0 +1,14 @@
+{ "subject" : "Courses on the prompt engineering",
+  "list":[
+  { "question": "test?", "answer": "It helps create prompts for models to give answers." },
+  { "question": "Why is prompt engineering important?", "answer": "It improves the quality of model answers." },
+  { "question": "What does 'temperature' control in prompts?", "answer": "It controls creativity in responses." },
+  { "question": "What does 'zero-shot' prompting mean?", "answer": "It means giving no examples with the task." },
+  { "question": "What is 'few-shot' prompting?", "answer": "Providing a few examples to guide responses." },
+  { "question": "Why is system prompting useful?", "answer": "It sets a clear context for responses." },
+  { "question": "What does role prompting do?", "answer": "It gives the model a specific role." },
+  { "question": "Why document prompt attempts?", "answer": "To track which prompts work best." },
+  { "question": "How does 'chain of thought' help?", "answer": "It breaks down tasks into steps." },
+  { "question": "What should you consider for LLM setup?", "answer": "Consider creativity, response length, and style." }
+  ]
+}
