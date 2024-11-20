@@ -56,7 +56,7 @@ function generateAndCopy() {
 }
 
 function updateExample1() {
-    updateQuestions('https://github.com/wTrystan/wtrystan.github.io/blob/edbb6d861fbf39bc3cd98fb76f4c356c42828367/automatic_flash_cards/assets/Introduction_to_Large_Language_Models.json');
+    updateQuestions('https://wtrystan.github.io/automatic_flash_cards/assets/Introduction_to_Large_Language_Models.json');
 }
 
 function updateExample2() {
@@ -64,7 +64,7 @@ function updateExample2() {
 }
 
 function updateExample3() {
-    updateQuestions('https://github.com/wTrystan/wtrystan.github.io/blob/edbb6d861fbf39bc3cd98fb76f4c356c42828367/automatic_flash_cards/assets/Introduction_to_Generative_AI_Agents.json');
+    updateQuestions('https://wtrystan.github.io/automatic_flash_cards/assets/Introduction_to_Generative_AI_Agents.json');
 }
 
 function updateQuestions(text) {
