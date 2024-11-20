@@ -56,11 +56,11 @@ function generateAndCopy() {
 }
 
 function updateExample1() {
-    updateQuestions('/assets/Introduction_to_Large_Language_Models.json');
+    updateQuestions('automatic_flash_cards/assets/Introduction_to_Large_Language_Models.json');
 }
 
 function updateExample2() {
-    updateQuestions('/assets/Introduction_to_Prompt_Engineering.json');
+    updateQuestions('https://wtrystan.github.io/automatic_flash_cards/assets/Introduction_to_Prompt_Engineering.json');
 }
 
 function updateExample3() {
