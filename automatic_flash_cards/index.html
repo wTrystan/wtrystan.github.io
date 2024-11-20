@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mon Site Web</title>
+    <title>Automatic Flash Card</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
@@ -9,19 +9,47 @@
 <body>
 
 
+<!-- Premiere page -->
+    <div class="format_page" id="hero_banner">
+        <h1 id="titre_first_page"> Automatic flash cards</h1>
+        <h2 id="h2_first"> Generate your flash cards and study your lessons here ! </h2>
 
 
-    <div class="format_page">
-    <h1> Video de presentation</h1>
-    <button><a href='#creation_request_page'>Whole creation of the card</a></button>
-    <button><a href='#first_page'>Go directly to the flash cards and try examples</a></button>
+        <div class="table">
+            <div class="column">
+                <div class="card_first_page">
+                <p>Placeholder ThreeJS Card</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card_first_page">
+                <p>Placeholder Video</p>
+                </div>
+            </div>
+        </div>
+
+       <!-- <div class="table">
+            <div class="column">
+                <div class="card_first_page">
+                    <p>MAIN CARD</p>
+                    <p>Access to the prompt generator</p>
+                    <button><a href='#creation_request_page'>Whole creation of the card</a></button>
+                </div>
+            </div> --> 
+        <div class="bottom_page">
+            <a class="bottom_direct" href='#creation_request_page'>⌄</a>
+        </div>
     </div>
 
+<!-- S'occupe des parametres pour le prompt -->
     <div class="format_page" id="creation_request_page">
         <h1>Creation of the request for Chat GPT</h1>
+        <h2> Logo </h2>
 
-        <!-- LEVEL Dropdown -->
-        <label for="level">Level:</label>
+        <div class="forms">
+                <div class="popup" onclick="popUpAppears('popup_level')">Level:
+                    <span class="popuptext" id="popup_level">Choose the difficulty of the question chosen :</span>
+                </div>
         <select id="level" name="level" required>
             <option value="" disabled selected>Select a level</option>
             <option value="Kindergarten">Beginner</option>
@@ -30,7 +58,9 @@
             <option value="PhD">Expert</option>
         </select>
 
-        <label for="num_questions">Number of questions</label>
+        <div class="popup" onclick="popUpAppears('popup_num_questions')">Number of questions :
+            <span class="popuptext" id="popup_num_questions">Choose the number of question to be generated</span>
+        </div>
         <select id="num_questions" name="num_questions">
             <option value="" disabled selected>Select the number of questions</option>
             <option value="10" selected>10 questions</option>
@@ -38,14 +68,21 @@
             <option value="30">30 questions</option>
             <option value="40">40 questions</option>
             <option value="50">50 questions</option>
-            <option value="100">100 questions</option>
         </select>
 
-
-        <label for="num_chap">N° of the chapter to review :</label>
+    <div class="table">
+    <div class="column">
+        <div class="popup" onclick="popUpAppears('popup_chapter')">N° of the chapter to review :
+            <span class="popuptext" id="popup_chapter">Choose the specific chapter reviewed for the question to be generated</span>
+        </div>
         <input type="number" id="num_chap" name="num_chap" min="1" step="1" value="1">
+    </div>
 
-        <label for="num_pages">[IF NO CHAPTERS] Number of pages</label>
+    <div class="column">
+        <div class="popup" onclick="popUpAppears('popup_pages')">Number of pages
+            <span class="popuptext" id="popup_pages">Select the pages to be reviewed for the generation of the questions</span>
+        </div>
+
         <select id="num_pages" name="num_pages">
             <option value="" disabled selected>Select the part of the document</option>
             <option value="0% to 20% of the document">[0% - 20%]</option>
@@ -53,47 +90,123 @@
             <option value="40% to 60% of the document">[40% - 60%]</option>
             <option value="60% to 80% of the document">[60% - 80%]</option>
             <option value="80% to 100% of the document">[80% - 100%]</option>
-
         </select>
+    </div>
+        </div>
         <button id="creation_prompt"><a href='#second_page'>Generate the prompt</a></button>
         
-
+    </div>
+    </div>
+    <div class="bottom_page">
+        <a class="bottom_direct" id='button_redirect_forms' href='#second_page'>⌄</a>
+    </div>
+   
     </div>
 
-    <div class="format_page" id="second_page">
-        <h1>Instructions :</h1>
 
-        <a href="https://chatgpt.com/" target="_blank">Lien vers ChatGPT</a>
-        <div>
-        <label for="copy">Copy the JSON here:</label>
-        <textarea id="JSON_data"></textarea>
+<!-- Copy the JSON here-->
+    <div id="second_page">
+
+        <div class="table">
+            <div class="column">
+
+                <div class="instructions"> 
+                    <h2>The prompt is now copied in your clipboard !</h2>
+                    <h3>In order to generate your questions-answers, you will have to go to ChatGPT and follow the instructions below :</h3>
+
+                    <p> PLACEHOLDER VIDEO </p>
+                    <a href="https://chatgpt.com/" target="_blank">Lien vers ChatGPT</a>
+                </div>
+            </div>
+            <div class="column" id="right_column_JSON">    
+
+                <label for="copy">Copy the JSON here:</label>
+                <div class="divPaste">
+                    <button id="pasteClip">Paste</button>
+                </div>
+                <textarea id="JSON_data" onchange='isEmpty()' spellcheck="false"></textarea>
+                <button id="set_data_JSON"><a href='#first_page'>Submit</a></button>
+                <button id="reset_JSON">Reset</button>
+                <button id="download_JSON">Download</button>
+                <div id="uploadQuestions">
+                <label for="own_JSON">or upload your own questions:</label>
+                <input type="file" id="own_JSON" name="own_JSON" accept=".json" onchange='onChooseFile(event, onFileLoad.bind(this, "JSON_data"))' />
+                </div>
+            </div>
+
         </div>
-        <button id="set_data_JSON"><a href='#first_page'>Submit</a></button>
-        <button id="reset_JSON">Reset</button>
-    </div>
-
-
-    <div class="format_page" id="first_page">
-        <h1 id="subject">Loading of the subject...</h1>
-        <div id="content">
-            <p id="question">Loading of the data...</p>
-            <p id="answer"></p>
+        <div class="bottom_page">
+            <a class="bottom_direct" id='bottom_direct_forms' href='#first_page'>⌄</a>
         </div>
-    <div id="div-button">
-        <button id="button_click_back">Previous question</button>
-        <button id="button_click_next">Next question</button>
     </div>
-        <button id="button_click_answer">Reveal the answer</button>
+    
+
+<!--Flash card page -->
+<div class="format_page" id="first_page">
+    <h1 id="subject">Loading of the subject...</h1>
+    <div class="table">
+        <div class="column" id="load_exemples">
+            <p> Exemples here :</p>
+            <button id="load_JSON_ex_1">Introduction to Large Langage Model</button>
+            <button id="load_JSON_ex_2">Introduction to Prompt Engineering</button>
+            <button id="load_JSON_ex_3">Introduction to Generative AI Agents</button>
+        </div>
+        <div class="column" id="flashcard_div">
+            <div id="content">
+                <p id="question">Loading of the data...</p>
+                <p id="answer"></p>
+            </div>
+            <div id="div-button">
+                <button id="button_click_back">Previous question</button>
+                <button id="button_click_answer">Reveal the answer</button>
+                <button id="button_click_next">Next question</button>     
+            </div>
         <p id="path">Question 1/0</p>
-        <div>
-            <button id="load_JSON_ex_1">Load example 1</button>
-            <button id="load_JSON_ex_2">Load example 2</button>
-            <button id="load_JSON_ex_3">Load example 1</button>
-        </div>
+        </div> 
     </div>
-
-
+</div>
         <script src="js.js"></script>
+
+<script>
+function onFileLoad(elementId, event) 
+{
+    document.getElementById(elementId).value = event.target.result;
+}
+
+function isEmpty()
+{
+    valueText = document.getElementById('JSON_data').value;
+    if (valueText.length == 0) 
+    {
+        document.getElementById("download_JSON").disabled = true;
+    }
+    else {document.getElementById("download_JSON").disabled = false;}
+}
+
+function onChooseFile(event, onLoadFileHandler) {
+    if (typeof window.FileReader !== 'function')
+        throw ("The file API isn't supported on this browser.");
+    let input = event.target;
+    if (!input)
+        throw ("The browser does not properly implement the event object");
+    if (!input.files)
+        throw ("This browser does not support the `files` property of the file input.");
+    if (!input.files[0])
+        return undefined;
+    let file = input.files[0];
+    let fr = new FileReader();
+    fr.onload = onLoadFileHandler;
+    fr.readAsText(file);
+    document.getElementById("download_JSON").disabled = false;
+}
+
+// When the user clicks on <div>, open the popup
+function popUpAppears(id_popup) {
+  var popup = document.getElementById(id_popup);
+  popup.classList.toggle("show");
+}
+
+</script>
 </body>
 
 </html>
