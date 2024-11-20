@@ -1,0 +1,85 @@
+{
+  "subject": "Introduction to Large Language Models",
+  "list": [
+    {
+      "question": "What does LLM stand for?",
+      "answer": "Large Language Model."
+    },
+    {
+      "question": "What is the primary capability of an LLM?",
+      "answer": "Processing, understanding, and generating human-like text."
+    },
+    {
+      "question": "How do LLMs understand language patterns?",
+      "answer": "By training on massive amounts of text data."
+    },
+    {
+      "question": "What is an example task LLMs can perform?",
+      "answer": "Machine translation or text summarization."
+    },
+    {
+      "question": "What is the foundation of modern LLM architectures?",
+      "answer": "The transformer model."
+    },
+    {
+      "question": "Why are transformers preferred over RNNs?",
+      "answer": "Faster training and better handling of long-term dependencies."
+    },
+    {
+      "question": "What is self-attention in transformers used for?",
+      "answer": "Determining relationships between words in sequences."
+    },
+    {
+      "question": "What is an encoder in a transformer responsible for?",
+      "answer": "Converting input into contextual representations."
+    },
+    {
+      "question": "What does the decoder in a transformer do?",
+      "answer": "Generates output sequences from contextual embeddings."
+    },
+    {
+      "question": "What are the two parts of the original transformer?",
+      "answer": "Encoder and decoder."
+    },
+    {
+      "question": "What is positional encoding?",
+      "answer": "Adds information about token positions in a sequence."
+    },
+    {
+      "question": "What role does normalization play in transformers?",
+      "answer": "Stabilizes training and reduces covariate shift."
+    },
+    {
+      "question": "What mechanism allows transformers to focus on relevant words?",
+      "answer": "Self-attention mechanism."
+    },
+    {
+      "question": "What is the purpose of tokenization?",
+      "answer": "Breaking sentences into words or subwords."
+    },
+    {
+      "question": "How does training differ from inference in LLMs?",
+      "answer": "Training modifies parameters; inference predicts outputs without updates."
+    },
+    {
+      "question": "What is a key tradeoff in LLM performance?",
+      "answer": "Balancing quality versus latency or cost."
+    },
+    {
+      "question": "What type of tasks can decoder-only models perform?",
+      "answer": "Language modeling and text generation."
+    },
+    {
+      "question": "What is the main focus of the whitepaper's introduction?",
+      "answer": "Explaining the basics and significance of LLMs."
+    },
+    {
+      "question": "What does the term 'emergent behaviors' refer to in LLMs?",
+      "answer": "Capabilities arising from large-scale training."
+    },
+    {
+      "question": "What is the main training challenge for LLMs?",
+      "answer": "Balancing computational cost and performance."
+    }
+  ]
+}

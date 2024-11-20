@@ -1,0 +1,85 @@
+{
+  "subject": "Introduction to Generative AI Agents",
+  "list": [
+    {
+      "question": "What is the primary role of a Generative AI agent?",
+      "answer": "Achieving goals by observing and acting on the world."
+    },
+    {
+      "question": "What are the core components of an agent's cognitive architecture?",
+      "answer": "Model, tools, and orchestration layer."
+    },
+    {
+      "question": "What is the function of the model in an agent?",
+      "answer": "Centralized decision-maker for reasoning and logic."
+    },
+    {
+      "question": "How do tools enhance an agent's capabilities?",
+      "answer": "By enabling interaction with external data and systems."
+    },
+    {
+      "question": "What is the orchestration layer responsible for?",
+      "answer": "Managing reasoning, memory, and planning actions."
+    },
+    {
+      "question": "How do agents differ from standalone models?",
+      "answer": "Agents use tools and maintain session history."
+    },
+    {
+      "question": "What is the ReAct framework used for in agents?",
+      "answer": "Combining reasoning and actions for user queries."
+    },
+    {
+      "question": "How does Chain-of-Thought (CoT) prompting aid reasoning?",
+      "answer": "By breaking tasks into intermediate steps."
+    },
+    {
+      "question": "What is the purpose of Tree-of-Thoughts (ToT) prompting?",
+      "answer": "Exploring multiple reasoning paths for problem-solving."
+    },
+    {
+      "question": "What are extensions in the context of agents?",
+      "answer": "Bridges between agents and external APIs."
+    },
+    {
+      "question": "What distinguishes functions from extensions in agents?",
+      "answer": "Functions execute on the client-side, not the agent-side."
+    },
+    {
+      "question": "What do data stores provide for agents?",
+      "answer": "Access to real-time, structured, and unstructured data."
+    },
+    {
+      "question": "What is Retrieval Augmented Generation (RAG)?",
+      "answer": "Combining agent queries with external data for responses."
+    },
+    {
+      "question": "How does in-context learning support agents?",
+      "answer": "Providing prompts and examples at inference time."
+    },
+    {
+      "question": "What is the goal of fine-tuning an agent model?",
+      "answer": "Training with domain-specific data for better responses."
+    },
+    {
+      "question": "What is the purpose of the LangChain framework?",
+      "answer": "To build agents by chaining tools and reasoning."
+    },
+    {
+      "question": "How do agents achieve autonomy?",
+      "answer": "By planning and executing tasks independently."
+    },
+    {
+      "question": "What is the role of a cognitive architecture?",
+      "answer": "Structuring decision-making and guiding actions."
+    },
+    {
+      "question": "What is an example of an agent's tool usage?",
+      "answer": "Using APIs to fetch real-time information."
+    },
+    {
+      "question": "What is the main focus of the chapter?",
+      "answer": "Introducing agents and their operational frameworks."
+    }
+  ]
+}

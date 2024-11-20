@@ -1,0 +1,85 @@
+{
+  "subject": "Introduction to Prompt Engineering",
+  "list": [ 
+    {
+      "question": "What is the main purpose of prompt engineering?",
+      "answer": "Designing prompts to guide LLMs for accurate outputs."
+    },
+    {
+      "question": "What is a text prompt in prompt engineering?",
+      "answer": "An input for generating specific responses from a model."
+    },
+    {
+      "question": "What does LLM stand for?",
+      "answer": "Large Language Model."
+    },
+    {
+      "question": "What are examples of tasks LLMs can perform?",
+      "answer": "Summarization, translation, and question answering."
+    },
+    {
+      "question": "Why is prompt optimization important?",
+      "answer": "To improve the accuracy and relevance of model outputs."
+    },
+    {
+      "question": "What determines the efficacy of a prompt?",
+      "answer": "Model choice, training data, and structure."
+    },
+    {
+      "question": "What does 'zero-shot prompting' mean?",
+      "answer": "Providing only a task description without examples."
+    },
+    {
+      "question": "What is the 'Iterate-Test-Optimize' framework?",
+      "answer": "Refining prompts through testing and improvement."
+    },
+    {
+      "question": "How does temperature control affect output?",
+      "answer": "It adjusts the randomness of token selection."
+    },
+    {
+      "question": "What is the function of top-K sampling?",
+      "answer": "Restricts predictions to the top K tokens."
+    },
+    {
+      "question": "What is top-P sampling also called?",
+      "answer": "Nucleus sampling."
+    },
+    {
+      "question": "Why is output length configuration important?",
+      "answer": "To balance response relevance and computational cost."
+    },
+    {
+      "question": "What is chain-of-thought (CoT) prompting?",
+      "answer": "Generating intermediate reasoning steps for complex tasks."
+    },
+    {
+      "question": "What does self-consistency improve?",
+      "answer": "Response accuracy through multiple reasoning paths."
+    },
+    {
+      "question": "What is role prompting?",
+      "answer": "Assigning the model a persona for tailored responses."
+    },
+    {
+      "question": "What is system prompting used for?",
+      "answer": "Defining the model’s overall context and purpose."
+    },
+    {
+      "question": "What is a key challenge in prompt engineering?",
+      "answer": "Avoiding ambiguity in prompt design."
+    },
+    {
+      "question": "What is automatic prompt engineering?",
+      "answer": "Using LLMs to generate and refine prompts automatically."
+    },
+    {
+      "question": "How does step-back prompting help?",
+      "answer": "It encourages general reasoning before task-specific problem-solving."
+    },
+    {
+      "question": "Why is documentation important in prompt engineering?",
+      "answer": "To track changes and learn from previous attempts."
+    }
+  ]
+}
