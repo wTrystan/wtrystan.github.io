@@ -64,7 +64,7 @@ function updateExample2() {
 }
 
 function updateExample3() {
-    updateQuestions('./assets/Introduction_to_Generative_AI_Agents.json');
+    updateQuestions('./automatic_flash_cards/assets/Introduction_to_Generative_AI_Agents.json');
 }
 
 function updateQuestions(text) {
