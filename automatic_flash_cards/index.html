@@ -12,7 +12,6 @@
 </head>
 <body>
 
-
 <!-- Premiere page -->
     <div class="format_page" id="hero_banner">
         <h1 id="titre_first_page"> Automatic flash cards</h1>
@@ -47,11 +46,12 @@
 
 <!-- S'occupe des parametres pour le prompt -->
     <div class="format_page" id="creation_request_page">
-        <h1>Creation of the request for Chat GPT</h1>
+        <h1>Creation of the request for ChatGPT</h1>
         
         <div class="forms">
-            <h2> Logo </h2>
+            <h2> Placeholder Logo </h2>
                 <div class="popup" onclick="popUpAppears('popup_level')">Level:
+                    <img src="./assets/img/help.png" class="help_img">
                     <span class="popuptext" id="popup_level">Choose the difficulty of the question chosen :</span>
                 </div>
         <select id="level" name="level" required>
@@ -63,6 +63,7 @@
         </select>
 
         <div class="popup" onclick="popUpAppears('popup_num_questions')">Number of questions :
+            <img src="./assets/img/help.png" class="help_img">
             <span class="popuptext" id="popup_num_questions">Choose the number of question to be generated</span>
         </div>
         <select id="num_questions" name="num_questions">
@@ -77,13 +78,15 @@
     <div class="table">
     <div class="column">
         <div class="popup" onclick="popUpAppears('popup_chapter')">N° of the chapter to review :
+            <img src="./assets/img/help.png" class="help_img">
             <span class="popuptext" id="popup_chapter">Choose the specific chapter reviewed for the question to be generated</span>
         </div>
         <input type="number" id="num_chap" name="num_chap" min="1" step="1" value="1">
     </div>
 
     <div class="column">
-        <div class="popup" onclick="popUpAppears('popup_pages')">Number of pages
+        <div class="popup" onclick="popUpAppears('popup_pages')">Number of pages :
+            <img src="./assets/img/help.png" class="help_img">
             <span class="popuptext" id="popup_pages">Select the pages to be reviewed for the generation of the questions</span>
         </div>
 
@@ -97,7 +100,7 @@
         </select>
     </div>
         </div>
-        <button id="creation_prompt"><a href='#second_page'>Generate the prompt</a></button>
+        <a href='#second_page'><button id="creation_prompt">Generate the prompt</button></a>
         
     </div>
     </div>
@@ -117,19 +120,22 @@
                 <div class="instructions"> 
                     <h2>The prompt is now copied in your clipboard !</h2>
                     <h3>In order to generate your questions-answers, you will have to go to ChatGPT and follow the instructions below :</h3>
-
+                    <a id='link_GPT' href="https://chatgpt.com/" target="_blank">Lien vers ChatGPT</a>
                     <p> PLACEHOLDER VIDEO </p>
-                    <a href="https://chatgpt.com/" target="_blank">Lien vers ChatGPT</a>
+                    
                 </div>
             </div>
             <div class="column" id="right_column_JSON">    
 
                 <label for="copy">Copy the JSON here:</label>
+                <div>
                 <div class="divPaste">
+                    <p>JSON  </p>
                     <button id="pasteClip">Paste</button>
                 </div>
                 <textarea id="JSON_data" onchange='isEmpty()' spellcheck="false"></textarea>
-                <button id="set_data_JSON"><a href='#first_page'>Submit</a></button>
+                </div>
+                <a href='#first_page'><button id="set_data_JSON">Submit</button></a>
                 <button id="reset_JSON">Reset</button>
                 <button id="download_JSON">Download</button>
                 <div id="uploadQuestions">
@@ -214,4 +220,5 @@ function popUpAppears(id_popup) {
 </body>
 
 </html>
+
 
