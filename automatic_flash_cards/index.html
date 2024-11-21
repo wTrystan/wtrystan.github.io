@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <link rel="stylesheet" href="https://wtrystan.github.io/automatic_flash_cards/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+    </style>
 </head>
 <body>
 
@@ -45,9 +48,9 @@
 <!-- S'occupe des parametres pour le prompt -->
     <div class="format_page" id="creation_request_page">
         <h1>Creation of the request for Chat GPT</h1>
-        <h2> Logo </h2>
-
+        
         <div class="forms">
+            <h2> Logo </h2>
                 <div class="popup" onclick="popUpAppears('popup_level')">Level:
                     <span class="popuptext" id="popup_level">Choose the difficulty of the question chosen :</span>
                 </div>
@@ -98,7 +101,7 @@
         
     </div>
     </div>
-    <div class="bottom_page">
+    <div class="bottom_page" id="svg_bottom_page">
         <a class="bottom_direct" id='button_redirect_forms' href='#second_page'>⌄</a>
     </div>
    
@@ -166,7 +169,7 @@
         </div> 
     </div>
 </div>
-        <script src="https://wtrystan.github.io/automatic_flash_cards/js.js"></script>
+        <script src="js.js"></script>
 
 <script>
 function onFileLoad(elementId, event) 
@@ -211,3 +214,4 @@ function popUpAppears(id_popup) {
 </body>
 
 </html>
+
