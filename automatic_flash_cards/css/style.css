@@ -637,4 +637,7 @@ h1 {
   #div-button button{
       height: 2rem;
 }
+        img {
+    width:90%;
+  }
   }
