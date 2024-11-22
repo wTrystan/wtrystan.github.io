@@ -495,7 +495,6 @@ h1 {
     #button_click_back,
     #button_click_answer,
     #button_click_next {
-        width: 80%;
         max-width: 80%;
         min-width: 80%;
         margin-bottom: 10px;
@@ -525,8 +524,8 @@ h1 {
         min-width: 90%;
         padding: 0px 0px;
 
-        min-height: 50%;
-        max-height: 50%;
+        min-height: 80%;
+        max-height: 80%;
 
         margin: 0px 0px;
         padding: 50px 72px 50px;
@@ -544,7 +543,6 @@ h1 {
     .card_first_page {
         max-width: 100%;
         min-width: 100%;
-
         border: 1px solid #000;
         padding: 10px; 
         min-height: 10vh;
@@ -593,12 +591,18 @@ h1 {
     text-align: center;
     margin-bottom: 50px;
     color:#EFEFEF;
+    max-height:100px;
+    min-height:100px;
+    height:100px;
   }
 
   #answer {
     font-size: 18px;
     text-align: center;
     color:#EFEFEF;
+    max-height:100px;
+    min-height:100px;
+    height:100px;
   }
 
   #table_hero {
@@ -629,4 +633,8 @@ h1 {
   #subject {
       padding-top:40%;
   }
+
+  #div-button button{
+      height: 2rem;
 }
+  }
