@@ -500,12 +500,17 @@ h1 {
         margin-bottom: 10px;
     }
 
-    #set_data_JSON,
     #reset_JSON,
     #download_JSON {
-        width: 100%;
-        max-width: 100%;
-        min-width: 100%;
+        width: 90%;
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    #set_data_JSON button{
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
     }
 
     #creation_prompt {
