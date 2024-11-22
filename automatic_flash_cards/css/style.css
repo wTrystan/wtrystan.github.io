@@ -454,4 +454,126 @@ h1 {
     --greyLight-3: #bec8e4;
     --greyDark: #9baacf;
   }
-  
+
+ @media only screen and (max-width: 768px) {
+    .table {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #load_exemples {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    #div-button {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #button_click_back,
+    #button_click_answer,
+    #button_click_next {
+        width: 80%;
+        max-width: 80%;
+        min-width: 80%;
+        margin-bottom: 10px;
+    }
+
+    #set_data_JSON,
+    #reset_JSON,
+    #download_JSON {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #creation_prompt {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .divPaste {
+        min-width: 100%;
+        justify-content: center;
+    }
+
+    #content {
+        max-width: 80%;
+        min-width: 80%;
+        padding: 0px 0px;
+
+        min-height: 50vh;
+        max-height: 50vh;
+        max-width: 40vh;
+        min-width: 40vh;
+
+        margin: 0px 0px;
+        padding: 50px 72px 50px;
+        text-align: center;
+        border-radius: 25px 25px 25px 25px;
+        background-color: #243642;
+    }
+
+    #div_prompt {
+        max-width: 100%;
+        min-width: 100%;
+        padding: 20px 20px;
+    }
+
+    .card_first_page {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .instructions {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 1vh;
+    }
+
+    h1 {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 50px;
+      color:#EFEFEF;
+      padding-top:100px;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: bold;
+  }
+
+  #titre_first_page {
+    font-size:30px;
+    padding-top:25vh;
+    margin-bottom:1vh;
+  }
+
+  #h2_first {
+    font-size:15px;
+  }
+
+  #question {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:#EFEFEF;
+  }
+
+  #answer {
+    font-size: 18px;
+    text-align: center;
+    color:#EFEFEF;
+  }
+
+  #table_hero {
+    display: flex; 
+    justify-content: center; 
+    gap: 0px;
+  }
+}
